@@ -4,7 +4,7 @@
 ## Hi there 👋 I'm known as Moleman
 
 ### About Me
-- 🔭 I’m currently working on Standardises repository templates and terrafomr mdoules for common azure resources.
+- 🔭 I’m currently working on Standardised repository templates and terraform mdoules for common azure resources.
 - 🌱 I’m currently learning typescript and CDK the hard way.
 - 👯 I’m looking to collaborate on open source Terraform modules and Azure DevOps extensions.
 - 🤔 I’m looking for help with building an [Azure DevOps extension for Ox Security Megalinter](https://github.com/DownAtTheBottomOfTheMoleHole/megalinter_ado_extension).
