@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 - 💬 Ask me about Terraform, Powershell and Azure
 - 📫 How to reach me: please tag me in relevant discussions
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I love hiking and outdoor adventures!
+- ⚡ Fun fact: I love cooking!
 
 ### My Skills
 - **Languages:** Terraform, PowerShell, 
