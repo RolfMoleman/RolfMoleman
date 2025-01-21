@@ -15,7 +15,7 @@
 
 ### My Skills
 - **Languages:** Terraform, PowerShell, 
-- **Frameworks:** TensorFlow, PyTorch, Node.js
+- **Frameworks:** 
 - **Tools:** Git, Docker, Kubernetes
 
 ### Connect with Me
