@@ -1,6 +1,14 @@
 <!--
 **RolfMoleman/RolfMoleman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+<p align="center">
+  <img src="assets/banner.svg" alt="RolfMoleman banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/logo.svg" alt="RolfMoleman logo" width="150" />
+</p>
+
 ## Hi there 👋 I'm known as Moleman
 
 ### About Me
@@ -23,3 +31,13 @@
 
 ### GitHub Stats
 ![Rolf's GitHub stats](https://github-readme-stats.vercel.app/api?username=RolfMoleman&show_icons=true&theme=radical)
+
+---
+
+<p align="center">
+  <sub>
+    The banner, logo, and other creative assets in this repository are licensed under
+    <a href="LICENSE">CC BY-NC-ND 4.0</a> © RolfMoleman (Carl Dawson).
+    All rights reserved.
+  </sub>
+</p>
