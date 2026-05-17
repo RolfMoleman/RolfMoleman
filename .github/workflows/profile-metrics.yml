@@ -1,0 +1,136 @@
+name: Update Profile Metrics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - .github/workflows/profile-metrics.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build metrics block from GitHub API
+        uses: actions/github-script@v7
+        env:
+          PROFILE_USERNAME: RolfMoleman
+          MAX_REPOS: "3"
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const username = process.env.PROFILE_USERNAME;
+            const maxRepos = Number(process.env.MAX_REPOS || '3');
+
+            const userResp = await github.rest.users.getByUsername({ username });
+            const user = userResp.data;
+
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username,
+              type: 'owner',
+              per_page: 100
+            });
+
+            const publicRepos = repos.filter((repo) => !repo.fork);
+            const totalStars = publicRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+
+            const now = new Date();
+            const from = new Date(now);
+            from.setDate(from.getDate() - 365);
+
+            const contributionQuery = `
+              query($login: String!, $from: DateTime!, $to: DateTime!) {
+                user(login: $login) {
+                  contributionsCollection(from: $from, to: $to) {
+                    contributionCalendar {
+                      totalContributions
+                    }
+                  }
+                }
+              }
+            `;
+
+            const contributionResult = await github.graphql(contributionQuery, {
+              login: username,
+              from: from.toISOString(),
+              to: now.toISOString()
+            });
+
+            const contributions365 = contributionResult.user.contributionsCollection.contributionCalendar.totalContributions;
+
+            const topRepos = [...publicRepos]
+              .sort((a, b) => b.stargazers_count - a.stargazers_count)
+              .slice(0, maxRepos);
+
+            const repoRows = [];
+            for (const repo of topRepos) {
+              const issueQuery = `repo:${repo.full_name} is:issue is:open`;
+              const prQuery = `repo:${repo.full_name} is:pr is:open`;
+
+              const [issues, prs] = await Promise.all([
+                github.rest.search.issuesAndPullRequests({ q: issueQuery, per_page: 1 }),
+                github.rest.search.issuesAndPullRequests({ q: prQuery, per_page: 1 })
+              ]);
+
+              const issueCount = issues.data.total_count;
+              const prCount = prs.data.total_count;
+
+              repoRows.push(`| [${repo.name}](${repo.html_url}) | ${issueCount} | ${prCount} |`);
+            }
+
+            if (repoRows.length === 0) {
+              repoRows.push('| None found | 0 | 0 |');
+            }
+
+            const metricsBlock = [
+              '<!-- PROFILE_METRICS_START -->',
+              '*Auto-updated daily via GitHub Actions.*',
+              '',
+              '| Metric                        | Value |',
+              '| ----------------------------- | -----: |',
+              `| Contributions (last 365 days) | ${contributions365} |`,
+              `| Public repositories           | ${user.public_repos} |`,
+              `| Public gists                  | ${user.public_gists} |`,
+              `| Followers                     | ${user.followers} |`,
+              `| Total stars (public repos)    | ${totalStars} |`,
+              '',
+              '| Repository    | Open issues | Open PRs |',
+              '| ------------- | ----------: | -------: |',
+              ...repoRows,
+              '<!-- PROFILE_METRICS_END -->'
+            ].join('\n');
+
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            const regex = /<!-- PROFILE_METRICS_START -->[\s\S]*<!-- PROFILE_METRICS_END -->/;
+
+            if (!regex.test(readme)) {
+              core.setFailed('PROFILE_METRICS markers were not found in README.md');
+              return;
+            }
+
+            const updated = readme.replace(regex, metricsBlock);
+            fs.writeFileSync(readmePath, updated);
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No README changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update profile metrics"
+          git push
