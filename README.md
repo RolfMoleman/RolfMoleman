@@ -46,17 +46,19 @@ I build reusable infrastructure patterns, automation workflows, and quality-focu
 <!-- PROFILE_METRICS_START -->
 *Auto-updated daily via GitHub Actions.*
 
-| Metric                        | Value         |
-| ----------------------------- | ------------- |
-| Contributions (last 365 days) | Refreshing... |
-| Public repositories           | Refreshing... |
-| Public gists                  | Refreshing... |
-| Followers                     | Refreshing... |
-| Total stars (public repos)    | Refreshing... |
+| Metric                        | Value |
+| ----------------------------- | -----: |
+| Contributions (last 365 days) | 1050 |
+| Public repositories           | 11 |
+| Public gists                  | 0 |
+| Followers                     | 7 |
+| Total stars (public repos)    | 1 |
 
 | Repository    | Open issues | Open PRs |
 | ------------- | ----------: | -------: |
-| Refreshing... |           - |        - |
+| [quality_tools](https://github.com/RolfMoleman/quality_tools) | 0 | 3 |
+| [.github](https://github.com/RolfMoleman/.github) | 0 | 0 |
+| [awesome-actions](https://github.com/RolfMoleman/awesome-actions) | 0 | 10 |
 <!-- PROFILE_METRICS_END -->
 
 ## Tech Stack
