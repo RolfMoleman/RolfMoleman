@@ -1,25 +1,43 @@
-<!--
-**RolfMoleman/RolfMoleman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-## Hi there 👋 I'm known as Moleman
+<!-- markdownlint-disable-file MD041 -->
 
-### About Me
-- 🔭 I’m currently working on Standardised repository templates and terraform mdoules for common azure resources.
-- 🌱 I’m currently learning typescript and CDK the hard way.
-- 👯 I’m looking to collaborate on open source Terraform modules and Azure DevOps extensions.
-- 🤔 I’m looking for help with building an [Azure DevOps extension for Ox Security Megalinter](https://github.com/DownAtTheBottomOfTheMoleHole/megalinter_ado_extension).
-- 💬 Ask me about Terraform, Powershell and Azure
-- 📫 How to reach me: please tag me in relevant discussions
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I love cooking!
+![RolfMoleman banner](assets/images/banner_10.png)
 
-### My Skills
-- **Languages:** Terraform, PowerShell, 
-- **Frameworks:** 
-- **Tools:** Git, Docker, Kubernetes
+# RolfMoleman
 
-### Connect with Me
-- [LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/carlrdawson/))
+Platform engineer focused on Terraform, PowerShell, Azure, and practical developer tooling.
+I build reusable infrastructure patterns, automation workflows, and quality-focused platform tooling.
 
-### GitHub Stats
+## What I Work On
+
+- Infrastructure as Code for Azure and Azure DevOps
+- Standardised repository templates and CI/CD workflows
+- MCP servers for Terraform best practices, MegaLinter, and cost insights
+- Azure DevOps extensions and automation for engineering teams
+
+## Current Focus
+
+- Expanding reusable Terraform modules and shared platform templates
+- Improving Azure DevOps extension workflows around MegaLinter and delivery quality
+- Learning TypeScript and Python while keeping Terraform and PowerShell as core strengths
+
+## Skills
+
+- Languages: Terraform, PowerShell
+- Currently learning: TypeScript, Python
+- Platforms: Microsoft Azure, Azure DevOps
+- Tools: Git, Docker, Kubernetes, MegaLinter
+
+## Collaboration
+
+- Open to collaboration on Terraform modules and Azure DevOps extensions
+- Happy to connect on platform engineering, governance, and automation patterns
+- Preferred contact: tag me in relevant discussions and issues
+
+## Connect
+
+- LinkedIn: [carlrdawson](https://www.linkedin.com/in/carlrdawson/)
+- GitHub organization: [DownAtTheBottomOfTheMoleHole](https://github.com/DownAtTheBottomOfTheMoleHole)
+
+## GitHub Stats
+
 ![Rolf's GitHub stats](https://github-readme-stats.vercel.app/api?username=RolfMoleman&show_icons=true&theme=radical)
