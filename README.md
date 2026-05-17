@@ -36,6 +36,35 @@ I build reusable infrastructure patterns, automation workflows, and quality-focu
 
 ## GitHub Stats
 
-![Rolf's GitHub stats](https://github-readme-stats.vercel.app/api?username=RolfMoleman&show_icons=true&theme=radical&cache_seconds=86400&rank_icon=github)
+![Followers](https://img.shields.io/github/followers/RolfMoleman?style=for-the-badge&color=blueviolet)
+![Stars](https://img.shields.io/github/stars/RolfMoleman?style=for-the-badge&color=blueviolet)
+![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRolfMoleman&query=%24.public_repos&label=public%20repos&style=for-the-badge&color=blueviolet)
+![Public gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRolfMoleman&query=%24.public_gists&label=public%20gists&style=for-the-badge&color=blueviolet)
 
-![GitHub streak](https://streak-stats.demolab.com?user=RolfMoleman&theme=radical&cache_seconds=86400)
+![GitHub streak](https://streak-stats.demolab.com?user=RolfMoleman&theme=radical)
+
+<!-- PROFILE_METRICS_START -->
+*Auto-updated daily via GitHub Actions.*
+
+| Metric                        | Value         |
+| ----------------------------- | ------------- |
+| Contributions (last 365 days) | Refreshing... |
+| Public repositories           | Refreshing... |
+| Public gists                  | Refreshing... |
+| Followers                     | Refreshing... |
+| Total stars (public repos)    | Refreshing... |
+
+| Repository    | Open issues | Open PRs |
+| ------------- | ----------: | -------: |
+| Refreshing... |           - |        - |
+<!-- PROFILE_METRICS_END -->
+
+## Tech Stack
+
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![MegaLinter](https://img.shields.io/badge/MegaLinter-FF6B6B?style=for-the-badge)
