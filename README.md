@@ -27,17 +27,15 @@ I build reusable infrastructure patterns, automation workflows, and quality-focu
 - Platforms: Microsoft Azure, Azure DevOps
 - Tools: Git, Docker, Kubernetes, MegaLinter
 
-## Collaboration
+## Connect
 
 - Open to collaboration on Terraform modules and Azure DevOps extensions
 - Happy to connect on platform engineering, governance, and automation patterns
-- Preferred contact: tag me in relevant discussions and issues
-
-## Connect
-
 - LinkedIn: [carlrdawson](https://www.linkedin.com/in/carlrdawson/)
-- GitHub organization: [DownAtTheBottomOfTheMoleHole](https://github.com/DownAtTheBottomOfTheMoleHole)
+- GitHub organisation: [DownAtTheBottomOfTheMoleHole](https://github.com/DownAtTheBottomOfTheMoleHole)
 
 ## GitHub Stats
 
-![Rolf's GitHub stats](https://github-readme-stats.vercel.app/api?username=RolfMoleman&show_icons=true&theme=radical)
+![Rolf's GitHub stats](https://github-readme-stats.vercel.app/api?username=RolfMoleman&show_icons=true&theme=radical&cache_seconds=86400&rank_icon=github)
+
+![GitHub streak](https://streak-stats.demolab.com?user=RolfMoleman&theme=radical&cache_seconds=86400)
