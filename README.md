@@ -1,47 +1,51 @@
 <!-- markdownlint-disable-file MD041 -->
 
-![RolfMoleman banner](assets/images/banner_10.png)
+[![RolfMoleman — platform engineering, infrastructure and automation][banner-image]][organisation]
 
 # RolfMoleman
 
-Platform engineer focused on Terraform, PowerShell, Azure, and practical developer tooling.
-I build reusable infrastructure patterns, automation workflows, and quality-focused platform tooling.
+Platform engineer focused on Terraform, PowerShell, Microsoft Azure, Azure DevOps
+and practical developer tooling.
 
-## What I Work On
+I build reusable infrastructure patterns, delivery automation and quality-focused
+platform tooling — from down at the bottom of the mole hole.
 
-- Infrastructure as Code for Azure and Azure DevOps
-- Standardised repository templates and CI/CD workflows
-- MCP servers for Terraform best practices, MegaLinter, and cost insights
-- Azure DevOps extensions and automation for engineering teams
+## What I build
 
-## Current Focus
+- Infrastructure as Code for Azure and Azure DevOps.
+- Standardised repository templates and CI/CD workflows.
+- MCP tooling for Terraform guidance, MegaLinter and cost insight.
+- Azure DevOps extensions and automation for engineering teams.
 
-- Expanding reusable Terraform modules and shared platform templates
-- Improving Azure DevOps extension workflows around MegaLinter and delivery quality
-- Learning TypeScript and Python while keeping Terraform and PowerShell as core strengths
+## Current focus
 
-## Skills
+- Expanding reusable Terraform modules and shared platform templates.
+- Improving Azure DevOps extension workflows around engineering quality.
+- Developing TypeScript and Python skills while keeping Terraform and PowerShell
+  as core strengths.
 
-- Languages: Terraform, PowerShell
-- Currently learning: TypeScript, Python
-- Platforms: Microsoft Azure, Azure DevOps
-- Tools: Git, Docker, Kubernetes, MegaLinter
+## Core stack
 
-## Connect
+- **Infrastructure:** Terraform, Microsoft Azure and Azure DevOps.
+- **Automation:** PowerShell, GitHub Actions and Azure Pipelines.
+- **Developer tooling:** Git, Docker, Kubernetes and MegaLinter.
+- **Currently learning:** TypeScript and Python.
 
-- Open to collaboration on Terraform modules and Azure DevOps extensions
-- Happy to connect on platform engineering, governance, and automation patterns
-- LinkedIn: [carlrdawson](https://www.linkedin.com/in/carlrdawson/)
-- GitHub organisation: [DownAtTheBottomOfTheMoleHole](https://github.com/DownAtTheBottomOfTheMoleHole)
+## Down At The Bottom Of The Mole Hole
 
-## GitHub Stats
+I maintain [Down At The Bottom Of The Mole Hole][organisation], a small
+engineering organisation for open-source projects, experiments and practical
+infrastructure, quality and developer-workflow tooling.
 
-![Followers](https://img.shields.io/github/followers/RolfMoleman?style=for-the-badge&color=blueviolet)
-![Stars](https://img.shields.io/github/stars/RolfMoleman?style=for-the-badge&color=blueviolet)
-![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRolfMoleman&query=%24.public_repos&label=public%20repos&style=for-the-badge&color=blueviolet)
-![Public gists](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRolfMoleman&query=%24.public_gists&label=public%20gists&style=for-the-badge&color=blueviolet)
+## Walking 90 miles for Mind
 
-![GitHub streak](https://streak-stats.demolab.com?user=RolfMoleman&theme=radical)
+In October 2026, I’m walking 90 miles for Mind. Mental health has shaped my own
+life and the lives of people I care about, so this is a genuinely personal
+challenge rather than just a distance target.
+
+[Read the story, donate or share the challenge][fundraiser].
+
+## GitHub activity
 
 <!-- PROFILE_METRICS_START -->
 *Auto-updated daily via GitHub Actions.*
@@ -61,12 +65,14 @@ I build reusable infrastructure patterns, automation workflows, and quality-focu
 | [awesome-actions](https://github.com/RolfMoleman/awesome-actions) | 0 | 10 |
 <!-- PROFILE_METRICS_END -->
 
-## Tech Stack
+## Connect
 
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![MegaLinter](https://img.shields.io/badge/MegaLinter-FF6B6B?style=for-the-badge)
+- [Down At The Bottom Of The Mole Hole][organisation]
+- [LinkedIn][linkedin]
+- Open to collaboration on Terraform modules, Azure DevOps extensions,
+  platform engineering, governance and automation patterns.
+
+[banner-image]: https://raw.githubusercontent.com/RolfMoleman/.github/main/assets/banners/rolfmoleman-github.png
+[fundraiser]: https://www.justgiving.com/fundraising/rolfmoleman
+[linkedin]: https://www.linkedin.com/in/carlrdawson/
+[organisation]: https://github.com/DownAtTheBottomOfTheMoleHole
