@@ -52,7 +52,7 @@ challenge rather than just a distance target.
 
 | Metric                        | Value |
 | ----------------------------- | -----: |
-| Contributions (last 365 days) | 3278 |
+| Contributions (last 365 days) | 3290 |
 | Public repositories           | 11 |
 | Public gists                  | 0 |
 | Followers                     | 7 |
@@ -61,7 +61,7 @@ challenge rather than just a distance target.
 | Repository    | Open issues | Open PRs |
 | ------------- | ----------: | -------: |
 | [quality_tools](https://github.com/RolfMoleman/quality_tools) | 0 | 3 |
-| [.github](https://github.com/RolfMoleman/.github) | 0 | 0 |
+| [.github](https://github.com/RolfMoleman/.github) | 0 | 1 |
 | [awesome-actions](https://github.com/RolfMoleman/awesome-actions) | 0 | 10 |
 <!-- PROFILE_METRICS_END -->
 
