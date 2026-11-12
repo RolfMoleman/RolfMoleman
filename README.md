@@ -55,7 +55,7 @@ challenge rather than just a distance target.
 | Contributions (last 365 days) | 3477 |
 | Public repositories           | 11 |
 | Public gists                  | 0 |
-| Followers                     | 9 |
+| Followers                     | 8 |
 | Total stars (public repos)    | 1 |
 
 | Repository    | Open issues | Open PRs |
