@@ -52,7 +52,7 @@ challenge rather than just a distance target.
 
 | Metric                        | Value |
 | ----------------------------- | -----: |
-| Contributions (last 365 days) | 3481 |
+| Contributions (last 365 days) | 3480 |
 | Public repositories           | 11 |
 | Public gists                  | 0 |
 | Followers                     | 7 |
